@@ -1,7 +1,25 @@
 {
-    "name": "niluzok/yii2-systemjs-modules",
-    "require": {
-        "php": ">=5.4.0",
-        "yiisoft/yii2": "*"
+  "name": "niluzok/yii2-systemjs-modules",
+  "description": "Use Yii2 asset bundles to register systemjs modules",
+  "keywords": ["yii2", "systemjs", "es6", "modules"],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/niluzok/yii2-systemjs-modules",
+    "issues": "https://github.com/niluzok/yii2-systemjs-modules/issues"
+  },
+  "authors": [
+    {
+      "name": "Niluzok",
+      "homepage": "https://github.com/niluzok/"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+  },
+  "autoload": {
+      "psr-4": {
+        "niluzok\\systemjsmodules\\": ""
+      }
     }
 }
